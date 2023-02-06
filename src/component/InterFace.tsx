@@ -1,4 +1,5 @@
 import React from 'react'
+import { ImFire } from 'react-icons/im';
 
 import { useNavigate } from "react-router-dom";
 
@@ -14,7 +15,8 @@ function InterFace() {
   return (
     <div className='main'>
 
-        <h3 className='text'>مالحد منة، الله اللي عزنا</h3>
+        <h3 className='text'>الله اللي عزنا مالحد منه <ImFire/></h3>
+        
         <div className='btn'>
         <button onClick={LogIn}>تسجيل دخول</button>
         <button> تسجيل جديد</button>
