@@ -57,7 +57,7 @@ function Search () {
             <Text fontSize='3xl' mr={5}>
           ابحث بالاسم :</Text>
             <Stack spacing={1} w={200} mb={50} mt={5} mr={5}>
-  <Input variant='outline' placeholder='Outline'   value={title}
+  <Input variant='outline' placeholder='ابحث'   value={title}
               onChange={handleBrandChange} />
  
 </Stack>

@@ -15,7 +15,7 @@ function InterFace() {
   return (
     <div className='main'>
 
-        <h3 className='text'>الله اللي عزنا مالحد منه <ImFire/></h3>
+        <h3 className='text'>الله اللي عزنا مالحد منه<ImFire size={100}/></h3>
         
         <div className='btn'>
         <button onClick={LogIn}>تسجيل دخول</button>
